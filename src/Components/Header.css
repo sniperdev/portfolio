@@ -1,0 +1,7 @@
+span{
+  opacity: 0;
+  animation: opacityAnim 1s alternate infinite;
+}
+@keyframes opacityAnim{
+  to { opacity:1}
+}
