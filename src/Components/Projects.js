@@ -13,7 +13,7 @@ const Projects = () => {
           "          Alias deleniti, illum mollitia nulla odit perspiciatis quam quis\n" +
           "          sapiente!"
         }
-        stack={["html5", "css", "js"]}
+        stack={["HTML5", "CSS", "JavaScript"]}
         demoLink={"test"}
         sourceLink={"test"}
       ></ProjectItem>

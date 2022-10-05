@@ -2,9 +2,6 @@ import React from "react";
 import StackItem from "./StackItem";
 
 const ProjectItem = ({ title, description, stack, demoLink, sourceLink }) => {
-  const stackList = () => {
-    return <StackItem text={"Test"}></StackItem>;
-  };
   return (
     <div className={"my-10 flex-col bg-white rounded-md overflow-hidden"}>
       <img
@@ -15,7 +12,11 @@ const ProjectItem = ({ title, description, stack, demoLink, sourceLink }) => {
       <div>
         <h1>{title}</h1>
         <h2>{description}</h2>
-        <div className={"py-3"}>{stackList}</div>
+        <div className={"py-3"}>
+          {stack.map((element) => (
+            <StackItem text={element} key={element} />
+          ))}
+        </div>
         <div className={"my-4"}>
           <a
             href={demoLink}
