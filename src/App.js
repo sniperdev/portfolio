@@ -1,9 +1,15 @@
 import Header from "./Components/Header";
+import AboutMe from "./Components/AboutMe";
+import Projects from "./Components/Projects";
 
 function App() {
   return (
-    <div className={"container bg-stone-100 w-screen h-screen"}>
-      <Header></Header>
+    <div className={"bg-stone-100 font-mono"}>
+      <div className={"px-4 container mx-auto"}>
+        <Header></Header>
+        <AboutMe></AboutMe>
+        <Projects></Projects>
+      </div>
     </div>
   );
 }

@@ -1,6 +1,6 @@
-span{
+span, .typing{
   opacity: 0;
-  animation: opacityAnim 1s alternate infinite;
+  animation: opacityAnim .7s alternate infinite;
 }
 @keyframes opacityAnim{
   to { opacity:1}
