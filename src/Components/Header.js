@@ -14,7 +14,7 @@ const Header = () => {
           >Igor Spychała
         </h1>
         <span
-          className={"w-4 h-9 translate-y-2 bg-blue-500 inline-block"}
+          className={"typing w-4 h-9 translate-y-2 bg-blue-500 inline-block"}
         ></span>
       </div>
       <h2 className={"mt-10"}>

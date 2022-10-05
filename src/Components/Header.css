@@ -1,4 +1,4 @@
-span, .typing{
+.typing{
   opacity: 0;
   animation: opacityAnim .7s alternate infinite;
 }

@@ -13,5 +13,6 @@ function App() {
     </div>
   );
 }
-
+// TODO: resume e z ogonkiem
+// TODO: github na osobnej stronie
 export default App;
