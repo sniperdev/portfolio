@@ -1,11 +1,9 @@
 import React from "react";
-import NavBar from "./NavBar";
 import "./Header.css";
 const Header = () => {
   return (
     <div>
-      <NavBar></NavBar>
-      <div className={"mt-20"}>
+      <div className={"pt-20"}>
         <h1
           className={
             "inline text-blue-500 text-4xl font-medium tracking-widest"

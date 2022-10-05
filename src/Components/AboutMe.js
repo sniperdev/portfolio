@@ -27,6 +27,8 @@ const AboutMe = () => {
           ", "
           <a
             href="https://github.com/sniperdev"
+            target={"_blank"}
+            rel={"noreferrer"}
             className={"text-sky-500 hover:text-sky-600"}
           >
             github
@@ -34,7 +36,7 @@ const AboutMe = () => {
           "]
         </div>
         <div className={"py-4"}>
-          <p>> Igor.resume</p>"
+          <p>> Igor.resumé</p>"
           <a
             href={Pdf}
             target={"_blank"}

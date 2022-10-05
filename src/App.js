@@ -13,7 +13,5 @@ function App() {
     </div>
   );
 }
-// TODO: resume e z ogonkiem
-// TODO: github na osobnej stronie
 // TODO: container mniejszy na dużych ekranach
 export default App;

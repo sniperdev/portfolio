@@ -4,18 +4,33 @@ import ProjectItem from "./ProjectItem";
 const Projects = () => {
   return (
     <div className={"py-10 text-center"}>
-      <h1 className={"inline-block projects-underline mb-16"}>Projects</h1>
+      <h1 className={"inline-block projects-underline mb-16 text-3xl"}>
+        Projects
+      </h1>
+
       <ProjectItem
-        title={"test"}
-        description={
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut,\n" +
-          "          delectus ea facere illum libero neque quam quos tempore ut vitae.\n" +
-          "          Alias deleniti, illum mollitia nulla odit perspiciatis quam quis\n" +
-          "          sapiente!"
-        }
+        title={"Recipe App"}
+        description={""}
+        stack={["HTML5", "CSS", "JavaScript", "API"]}
+        demoLink={"https://sniperdev.github.io/RecipeApp/"}
+        sourceLink={"https://github.com/sniperdev/RecipeApp"}
+        photoSrc={"./projectPhotos/img.png"}
+      ></ProjectItem>
+      <ProjectItem
+        title={"Weather App"}
+        description={""}
+        stack={["React", "CSS", "API"]}
+        demoLink={"https://sniperdev.github.io/WeatherApp/"}
+        sourceLink={"https://github.com/sniperdev/WeatherApp"}
+        photoSrc={"./projectPhotos/img_1.png"}
+      ></ProjectItem>
+      <ProjectItem
+        title={"Quiz App"}
+        description={""}
         stack={["HTML5", "CSS", "JavaScript"]}
-        demoLink={"test"}
-        sourceLink={"test"}
+        demoLink={"https://sniperdev.github.io/QuizApp/"}
+        sourceLink={"https://github.com/sniperdev/QuizApp"}
+        photoSrc={"./projectPhotos/img_2.png"}
       ></ProjectItem>
     </div>
   );
