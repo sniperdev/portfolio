@@ -22,7 +22,7 @@ const ProjectItem = ({
         alt={"test"}
         className={"md:w-2/5 object-cover"}
       />
-      <div className={"flex flex-col justify-center px-10"}>
+      <div className={"flex flex-col grow justify-center px-10"}>
         <h1 className={"font-semibold text-3xl my-3"}>{title}</h1>
         <h2>{description}</h2>
         <div className={"py-3 my-2"}>
@@ -30,7 +30,11 @@ const ProjectItem = ({
             <StackItem text={element} key={element} />
           ))}
         </div>
-        <div className={"my-5 mb-10"}>
+        <div
+          className={
+            "flex flex-col md:flex-row gap-3 justify-center my-5 mb-10"
+          }
+        >
           <a
             href={demoLink}
             target={"_blank"}
@@ -45,7 +49,9 @@ const ProjectItem = ({
             href={sourceLink}
             target={"_blank"}
             rel={"noreferrer"}
-            className={"p-4 mx-2 bg-blue-600 rounded-lg text-white"}
+            className={
+              "inline-block p-4 mx-2 bg-blue-600 rounded-lg text-white"
+            }
           >
             <AiFillGithub className={"inline -translate-y-0.5 mr-1"} />
             View Source
