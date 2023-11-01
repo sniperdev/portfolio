@@ -63,8 +63,7 @@ const AboutMe = () => {
         <div className={"py-4"}>
           <p>> Igor.skills</p>
           <p className={"text-amber-200"}>
-            ["React", "JavaScript", "git", "Scss", "HTML5", "CSS3",
-            "TailwindCSS"]
+            ["Angular", "React", "TypeScript", "JavaScript", "Git", "Github", "Angular Material", "TailwindCSS"]
           </p>
         </div>
         <div className={"py-4"}>

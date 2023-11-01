@@ -1,4 +1,3 @@
-import React from "react";
 import "./Projects.css";
 import ProjectItem from "./ProjectItem";
 const Projects = () => {
@@ -7,7 +6,22 @@ const Projects = () => {
       <h1 className={"inline-block projects-underline mb-16 text-3xl"}>
         Projects
       </h1>
-
+      <ProjectItem
+        title={"Angular Recipe App"}
+        description={""}
+        stack={["Angular", "Angular Materials", "TypeScript", "API"]}
+        demoLink={"https://sniperdev.github.io/recipe-app-angular/"}
+        sourceLink={"https://github.com/sniperdev/recipe-app-angular"}
+        photoSrc={"./projectPhotos/img_3.png"}
+      ></ProjectItem>
+      <ProjectItem
+        title={"Lifeguard Scheduler App"}
+        description={""}
+        stack={["React", "React Router", "TypeScript", "API"]}
+        demoLink={"https://sniperdev.github.io/wopr-scheduler-cv/"}
+        sourceLink={"https://github.com/sniperdev/wopr-scheduler-cv"}
+        photoSrc={"./projectPhotos/img_4.png"}
+      ></ProjectItem>
       <ProjectItem
         title={"Recipe App"}
         description={""}
